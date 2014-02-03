@@ -29,8 +29,6 @@ public class App {
         ut.start(
                 Undertow.builder()
                         .addHttpListener(8080, "localhost")
-                        .setHandler(resource(new FileResourceManager(new File(System.getProperty("user.home")), 100))
-                                .setDirectoryListingEnabled(true))
 
         );
 
