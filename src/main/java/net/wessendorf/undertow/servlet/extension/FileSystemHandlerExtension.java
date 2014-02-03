@@ -29,10 +29,6 @@ import java.io.File;
 
 public class FileSystemHandlerExtension implements ServletExtension {
 
-    public FileSystemHandlerExtension() {
-        System.out.println("DA\n\nDA");
-    }
-
     @Override
     public void handleDeployment(final DeploymentInfo deploymentInfo, final ServletContext servletContext) {
         deploymentInfo.addInitialHandlerChainWrapper(new HandlerWrapper() {
