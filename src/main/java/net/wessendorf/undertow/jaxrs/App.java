@@ -1,7 +1,6 @@
-package net.wessendorf.undertow;
+package net.wessendorf.undertow.jaxrs;
 
 import io.undertow.Undertow;
-import net.wessendorf.undertow.jaxrs.TestApplication;
 import org.jboss.resteasy.plugins.server.undertow.UndertowJaxrsServer;
 
 import java.util.logging.Logger;
